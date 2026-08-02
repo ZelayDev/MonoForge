@@ -7,4 +7,9 @@
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Zion">
+      <HintPath>..\..\..\Zion\Zion\bin\Debug\net10.0\Zion.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
