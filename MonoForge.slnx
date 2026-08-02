@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MonoForge.Editor/MonoForge.Editor.csproj" />
+  <Project Path="MonoForge/MonoForge.csproj" Id="73975675-deee-4c6b-a325-1816a9060188" />
+</Solution>

@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Components\**" />
+    <Compile Remove="Core\**" />
+    <Compile Remove="ECS\**" />
+    <Compile Remove="Managers\**" />
+    <Compile Remove="Scene\**" />
+    <Compile Remove="Serialization\**" />
+    <Compile Remove="Services\**" />
+    <EmbeddedResource Remove="Components\**" />
+    <EmbeddedResource Remove="Core\**" />
+    <EmbeddedResource Remove="ECS\**" />
+    <EmbeddedResource Remove="Managers\**" />
+    <EmbeddedResource Remove="Scene\**" />
+    <EmbeddedResource Remove="Serialization\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Components\**" />
+    <None Remove="Core\**" />
+    <None Remove="ECS\**" />
+    <None Remove="Managers\**" />
+    <None Remove="Scene\**" />
+    <None Remove="Serialization\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Zion">
+      <HintPath>..\..\..\Zion\Zion\bin\Debug\net10.0\Zion.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
