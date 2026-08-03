@@ -4,7 +4,7 @@ namespace MonoForge
 {
     public sealed class SceneRegistry : INSDContainer<SceneRegistry>
     {
-        public readonly int BootScene;
+        public readonly int BootSceneIndex;
 
 
         public void Write(NSDWriteContext Context)
